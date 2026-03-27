@@ -1,5 +1,5 @@
-function fn(s) {
+function fn(s: string) {
   //No error
-  console.log(s.subtr(3));
+  console.log(s.substring(3));
 }
-fn(42);
+fn("Hello, TypeScript!");
